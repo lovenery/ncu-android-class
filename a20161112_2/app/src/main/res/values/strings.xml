@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">零存整付計算機</string>
+    <string name="title">整存整付試算：</string>
+    <string name="lend">本金（NT$）：</string>
+    <string name="rate">年利率（％）：</string>
+    <string name="number">存款期數：</string>
+    <string name="btn">計算本利和</string>
+    <string name="reset">清除</string>
+</resources>

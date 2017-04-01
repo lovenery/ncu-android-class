@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">a20161120_2</string>
+    <string name="str1">計算BMI</string>
+    <string name="str2">身高(m):</string>
+    <string name="str3">體重(kg):</string>
+    <string name="str4">男性 / 女性 : </string>
+    <string name="str5">男性</string>
+    <string name="str6">女性</string>
+    <string name="str7">送出</string>
+    <string name="str8">回上一頁</string>
+</resources>

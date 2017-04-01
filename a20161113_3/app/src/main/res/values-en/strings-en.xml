@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Energy Charge Calculating</string>
+    <string name="str1">Please input the data：</string>
+    <string name="str2">Volt（V）：</string>
+    <string name="str3">Ampere（A）：</string>
+    <string name="str4">Use Hour/Day：</string>
+    <string name="str5">Power Rate/Degree：</string>
+    <string name="str6">Calculate</string>
+    <string name="str7">[ 30 Days/Month ]</string>
+    <string-array name="option_vs">
+        <item>110V</item>
+        <item>220V</item>
+    </string-array>
+</resources>

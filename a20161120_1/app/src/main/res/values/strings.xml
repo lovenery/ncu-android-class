@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Intent sample</string>
+    <string name="str1">主要的 Activity</string>
+    <string name="str2">切換到第二個 Activity</string>
+    <string name="str3">第二個 Activity</string>
+    <string name="str4">回到主要的 Activity</string>
+</resources>

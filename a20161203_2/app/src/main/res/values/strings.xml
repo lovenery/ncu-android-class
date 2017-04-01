@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">自訂版面資料庫查詢</string>
+    <string name="str1">編號：</string>
+    <string name="str2">查詢資料</string>
+    <string name="str3">查詢全部</string>
+    <string name="str4">ID</string>
+    <string name="str5">第一行文字</string>
+    <string name="str6">第二行文字</string>
+</resources>

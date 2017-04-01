@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">個人基本資料表單</string>
+    <string name="str1">姓名：</string>
+    <string name="str2">性別：</string>
+    <string name="str3">興趣：</string>
+    <string name="str4">帥哥</string>
+    <string name="str5">美女</string>
+    <string name="str6">吃飯</string>
+    <string name="str7">睡覺</string>
+    <string name="str8">上網</string>
+    <string name="str9">打電動</string>
+    <string name="str10">顯示結果</string>
+</resources>

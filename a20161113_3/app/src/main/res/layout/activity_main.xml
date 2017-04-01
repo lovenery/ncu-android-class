@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="me.lovenery.a20161113_3.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str1"
+        android:textSize="24sp"
+        android:id="@+id/tv1" />
+
+    <TextView
+        android:text="@string/str2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:id="@+id/tv2"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="@string/str3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_v"
+        android:layout_alignStart="@+id/tv2"
+        android:layout_marginTop="40dp"
+        android:id="@+id/tv3"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/input_a"
+        android:layout_alignBottom="@+id/tv3"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/str4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv4"
+        android:layout_above="@+id/input_m"
+        android:layout_alignStart="@+id/tv3"
+        android:layout_marginBottom="15dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/input_hr"
+        android:layout_alignBottom="@+id/tv4"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:id="@+id/input_v"
+        android:layout_width="120dp"
+        android:layout_marginStart="34dp"
+        android:layout_alignBottom="@+id/tv2"
+        android:layout_alignStart="@+id/input_a" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/input_m"
+        android:layout_above="@+id/submit"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/str5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv5"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/tv4" />
+
+    <Button
+        android:text="@string/str6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/tv5"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/str7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:id="@+id/tv6"
+        android:layout_below="@+id/submit"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/response"
+        android:layout_below="@+id/tv6"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

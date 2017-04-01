@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">點餐系統</string>
+    <string name="title">歡迎光臨麥當勞</string>
+    <string name="btn">進入點餐系統</string>
+    <string name="meal">您點的餐點有：</string>
+</resources>
